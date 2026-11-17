@@ -9,6 +9,7 @@
       font-family: Arial, sans-serif;
       font-size: 14px;
       position: relative;
+      background: #8A9A5BB5;
     }
     a {
       text-decoration: none;
@@ -19,10 +20,59 @@
       margin: 0;
       padding: 0;
     }
+
+
+    header {
+      width: calc(100% - 300px);
+      margin: 0 auto;
+      height: 150px;
+      border-radius: 30px;
+      margin-top: 25px;
+      background: linear-gradient(#ff5e3e,wheat);
+      box-shadow: 0 0 0 1px #ff5e3e, 0 0 0 5px #f5deb38f;
+    }
+    nav {
+      height: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 25px;
+    }
+    nav li {
+      font-weight: bold;
+      display: inline-block;
+      color: white;
+      margin: 0 5px;
+    }
+    #header-logo {
+      width: 100%;
+      height: calc(100% - 20px);
+      background: linear-gradient(wheat,white);
+      border-radius: 30px;
+    }
+    #header-logo span {
+      display: block;
+      text-align: center;
+      line-height: 130px;
+      font-size: 36px;
+      font-weight: bold;
+      color: white;
+      text-shadow: -2px 1px 0 wheat, -3px 3px 0 #ff6242;
+    }
   </style>
 </head>
 <body>
-  <header></header>
-  <nav></nav>
+  <header>
+    <nav>
+      <ul>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+      </ul>
+    </nav>
+    <div id='header-logo'>
+      <span>ANANTA</span>
+    </div>
+  </header>
+  
 </body>
 </html>
