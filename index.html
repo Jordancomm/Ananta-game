@@ -108,6 +108,9 @@
       box-sizing: border-box;
       padding: 10px 0;
     }
+    .section-body {
+      position: relative;
+    }
     #widgets-labels li {
       width: calc(100% - 30px);
       height: 50px;
@@ -118,6 +121,32 @@
       line-height: 50px;
       box-sizing: border-box;
       padding-left: 15px;
+    }
+
+    
+    .section-info div {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .section-date, .section-autor {
+      background: white;
+      border-radius: 10px;
+      height: 30px;
+      line-height: 30px;
+      padding: 0 10px;
+    }
+    .section-info .seperator {
+      width: 1px;
+      height: 20px;
+      background: black;
+      margin: 0 5px;
+      margin-top: 5px;
+    }
+    .section-info {
+      box-sizing: border-box;
+      padding: 0 25px;
+      position: absolute;
+      top: 5px;
     }
     footer {
       width: calc(100% - 300px);
