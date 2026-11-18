@@ -72,20 +72,31 @@
       margin: 0 auto;
       margin-top: 20px;
       padding-bottom: 100px;
+
+      width: calc(100% - 30px);
+      display: flex;
+      justify-content: center;
+      max-width: 1600px;
     }
     aside {
-      width: 275px;
+/*      width: 275px;*/
       display: inline-block;
       vertical-align: top;
       font-size: 14px;
+
+      flex: 1 1 auto;
+      max-width: 275px;
+      min-width: 250px;
     }
     article {
-      width: calc(100% - 600px);
+/*      width: calc(100% - 600px);*/
       display: inline-block;
       vertical-align: top;
       font-size: 14px;
       margin-left: 25px;
       margin-right: 25px;
+
+      flex: 3 1 auto;
     }
     .widgets, section {
       width: 100%;
